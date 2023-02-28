@@ -11,12 +11,16 @@ const HeroScreen = (props: Props) => {
         <div className="container">
             <h2>Alexio Rodrigues</h2>
             <span>
-                <Chip color="primary" label="Mobile" />
-                <Chip color="secondary" label="Frontend" />
-                <Chip color="warning" label="Backend" />
-                <Chip color="error" label="DevOps" />
+                <Chip color="primary" label="Mobile" /> <span></span>
+                <Chip color="secondary" label="Frontend" /> <span></span>
+                <Chip color="warning" label="Backend" /> <span></span>
+                <Chip color="error" label="DevOps" /> <span></span>
             </span>
-            <span><Button variant="outlined">Portfolio</Button> <Button variant="outlined">Hire Me</Button></span>
+            <span>
+                <Button variant="outlined">Hire Me</Button> <span></span>
+                <Button variant="outlined">Portfolio</Button> <span></span>
+                <Button variant="outlined">Talks and Publications</Button>
+            </span>
         </div>
     )
 }

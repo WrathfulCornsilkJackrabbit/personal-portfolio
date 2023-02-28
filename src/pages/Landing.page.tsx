@@ -5,9 +5,9 @@ const LandingPage = () => {
     return (
         <>
             <HeroComponent />
-            <p>Portfolio</p>
             <p>Hire Me</p>
-
+            <p>Portfolio</p>
+            <p>Talks and Publications</p>
         </>
     )
 }
