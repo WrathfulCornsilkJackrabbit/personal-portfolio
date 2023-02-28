@@ -1,5 +1,5 @@
-import Button from '@mui/material/Button';
 import React from 'react';
+import { Chip, Button } from '@mui/material';
 import './Hero.css';
 
 interface Props {
@@ -10,7 +10,12 @@ const HeroScreen = (props: Props) => {
     return (
         <div className="container">
             <h2>Alexio Rodrigues</h2>
-            <h4>Mobile, Frontend, Backend</h4>
+            <span>
+                <Chip color="primary" label="Mobile" />
+                <Chip color="secondary" label="Frontend" />
+                <Chip color="warning" label="Backend" />
+                <Chip color="error" label="DevOps" />
+            </span>
             <span><Button variant="outlined">Portfolio</Button> <Button variant="outlined">Hire Me</Button></span>
         </div>
     )
