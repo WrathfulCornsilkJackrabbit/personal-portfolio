@@ -1,4 +1,3 @@
-import React from 'react';
 import HeroComponent from '../components/hero/Hero.component';
 
 const LandingPage = () => {
