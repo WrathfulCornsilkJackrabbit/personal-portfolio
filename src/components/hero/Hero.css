@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.hero-container {
+  width: 100vw;
+  min-height: 102vh;
+  font-size: calc(10px + 2vmin);
+}
+
+.hero-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#title {
+  margin-top: 0;
+  margin-bottom: 0;
+}
