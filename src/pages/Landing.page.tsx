@@ -1,14 +1,14 @@
-import HeroComponent from '../components/hero/Hero.component';
+import HeroComponent from "../components/hero/Hero.component";
 
 const LandingPage = () => {
-    return (
-        <>
-            <HeroComponent />
-            <p>Hire Me</p>
-            <p>Portfolio</p>
-            <p>Talks and Publications</p>
-        </>
-    )
-}
+  return (
+    <>
+      <HeroComponent />
+      <div id="hire-me">Hire Me</div>
+      <div id="portfolio">Portfolio</div>
+      <div id="talks-publications">Talks and Publications</div>
+    </>
+  );
+};
 
 export default LandingPage;
